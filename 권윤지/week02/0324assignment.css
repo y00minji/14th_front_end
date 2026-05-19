@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'NanumSquareRound';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff') format('woff2');
+    font-weight: normal;
+    font-display: swap;
+}
+
+body {
+    margin:100px;
+    font-family: "NanumSquareRound";
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 80% 1fr;
+    min-width: 820px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.container > * {
+    grid-column: 2;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+.menu, .day, .url, .ellipsis {
+    color:rgb(188, 188, 188);
+}
+
+.name, .neighbor {
+    color: rgb(129, 129, 129);
+}
+
+.login {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 15px;
+    color: rgb(129, 129, 129);
+    gap: 8px;
+    margin-right: 20px;
+}
+
+.profile {
+    width: 800px;
+    text-align: center;
+}
+
+.title {
+    font-size: 33px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+
+}
+
+.question {
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+
+.ellipsis {
+    font-size: 30px;
+    vertical-align: middle;
+}
+
+.profile-img {
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.top-bar {
+    display: flex;
+    align-items:center;
+}
+
+.url {
+    margin-left: auto;
+}
+
+.url button {
+    margin-right: 10px;
+    margin-left:10px;
+}
+
+.review button {
+    margin-right: 8px;
+}
+
+ul {
+    list-style-position: inside;
+    padding-left:0;
+}
+
+.hash {
+    display: flex;
+    gap: 10px;
+}
+
+.highlightone, .highlighttwo, .highlightthree, .highlightfour, .highlightfive {
+    color: rgb(129, 129, 129);
+    background-color: rgb(245, 245, 245);
+    padding: 5px 10px;
+}
+
+.dot {
+    color: rgb(230, 230, 230);
+}

@@ -1,0 +1,10 @@
+P{
+	color:rgb(200, 118, 200);
+}
+.container {
+    display: grid;
+}
+.container {
+    display: flex;
+    flex-direction:column;
+}
